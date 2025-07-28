@@ -63,6 +63,38 @@
             background: white;
         }
 
+        @media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    button {
+        width: 80%;
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    body {
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    button {
+        width: 90%;
+        font-size: 0.9rem;
+        padding: 14px;
+    }
+
+    .nav {
+        gap: 8px;
+    }
+}
+
+
     </style>
 
 </head>
